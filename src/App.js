@@ -57,7 +57,7 @@ const App = () => {
         <img src={Home} style={{ width: '50px', height: '50px' }} alt='img' />
       </Link>
       <Routes>
-        <Route path="/" element={
+        <Route path="/toolbox" element={
           <Toolbox>
             {tools.map((tool, index) => (
               <Tool key={index} name={tool.name} icon={tool.icon} path={tool.path} />
@@ -65,8 +65,8 @@ const App = () => {
             ))}
           </Toolbox>
         } />
-        <Route path="/imgtopdf" element={<ImageToPdf />} />
-        <Route path="/bmi" element={<BMI />} />
+        <Route path="/toolbox/imgtopdf" element={<ImageToPdf />} />
+        <Route path="/toolbox/bmi" element={<BMI />} />
         <Route path="/fbvideodownloader" element={<FacebookVideoDownloader />} />
         <Route path="/tic-tac-toe" element={<TicTacToe/>} />
         {/* Add more routes as needed */}
