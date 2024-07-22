@@ -28,7 +28,7 @@ const BMICalculator = () => {
   return (
 <>
     <Helmet>
-      <title>BMI Calculator</title>
+      <title>BMI Calculator II</title>
     <link rel="icon" type="image/png" href='faviconBMI.ico' />
     </Helmet>
 

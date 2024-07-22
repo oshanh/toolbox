@@ -18,7 +18,7 @@ import { Helmet } from 'react-helmet';
 
 const App = () => {
   const tools = [
-    { name: 'Image To PDF Converter', icon: Logo, path: '/imgtopdf' },
+    { name: 'Image To PDF Converter', icon: Logo, path: 'toolbox/imgtopdf' },
     { name: 'BMI Calculator', icon: bmiLogo, path: '/bmi' },
     { name: 'FB Video Downloader', icon: 'https://via.placeholder.com/50', path: '/fbvideodownloader' },
     { name: 'Tic-Tac-toe', icon: 'https://via.placeholder.com/50', path: '/tic-tac-toe' },
@@ -53,7 +53,7 @@ const App = () => {
       <link rel="icon" type="image/png" href='favicon.ico' />
     </Helmet>
     <div className="App flex-grow">
-      <Link to='/'>
+      <Link to='/toolbox'>
         <img src={Home} style={{ width: '50px', height: '50px' }} alt='img' />
       </Link>
       <Routes>
