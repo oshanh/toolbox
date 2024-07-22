@@ -2,6 +2,7 @@
   "name": "app4",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://oshanh.github.io/toolbox",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
@@ -15,6 +16,7 @@
     "file-saver": "^2.0.5",
     "flowbite": "^2.4.1",
     "flowbite-react": "^0.10.1",
+    "gh-pages": "^6.1.1",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
     "react-helmet": "^6.1.0",
@@ -31,7 +33,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
