@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/toolbox/static/css/main.11cbce97.css",
+    "main.js": "/toolbox/static/js/main.0160fdb9.js",
+    "static/js/453.c0b65657.chunk.js": "/toolbox/static/js/453.c0b65657.chunk.js",
+    "static/media/ToolBoxlogo.png": "/toolbox/static/media/ToolBoxlogo.6990bbb949ee86dbf617.png",
+    "static/media/imgtopdf.png": "/toolbox/static/media/imgtopdf.d9e3ce60fe6866054cd4.png",
+    "static/media/Icon.png": "/toolbox/static/media/Icon.2c4ca16ce1c98f409951.png",
+    "index.html": "/toolbox/index.html",
+    "main.11cbce97.css.map": "/toolbox/static/css/main.11cbce97.css.map",
+    "main.0160fdb9.js.map": "/toolbox/static/js/main.0160fdb9.js.map",
+    "453.c0b65657.chunk.js.map": "/toolbox/static/js/453.c0b65657.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11cbce97.css",
+    "static/js/main.0160fdb9.js"
+  ]
+}
