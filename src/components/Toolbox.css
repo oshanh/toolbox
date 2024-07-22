@@ -1,0 +1,39 @@
+.toolbox {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 15px;
+    padding: 100px;
+    background-color: #7908089a;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin: auto auto auto auto;
+  }
+
+  
+.tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s;
+  width:110px;
+  height: 110px;
+  
+
+ 
+}
+  .tool-icon {
+    width: 60px;
+    height: 60px;
+    
+  }
+
+  .tool:hover {
+    transform: scale(1.05);
+  }

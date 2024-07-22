@@ -1,0 +1,46 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    gap: 0px;
+    padding: 0px;
+    background-color: #f0f0f0;
+    
+   
+}
+
+.tool{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  background-color: #e90707;
+  transition: transform 0.2s;
+    
+}
+
+.tool:hover {
+    transform: scale(1.05);
+  }
+  
+  .tool-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+.toggle{
+    width:30px;
+    height: 30px;
+    
+    background-color: rgb(217, 255, 0);
+    cursor: pointer;
+}
+.toggle:hover{
+    background-color: rgb(55, 0, 127);
+    width: 50px;
+    transition: 1s linear;
+}
